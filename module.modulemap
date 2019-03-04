@@ -1,0 +1,9 @@
+module CSFML [system] {
+    header "/usr/local/include/SFML/Audio.h"
+    header "/usr/local/include/SFML/System.h"
+
+    link "sfml-system"
+    link "sfml-audio"
+
+    export *
+}
